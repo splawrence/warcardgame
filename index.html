@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>War Car Game</title>
+	 <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link type="text/css" href="styles/normalize.css" rel="stylesheet" />
+	<link type="text/css" href="styles/my_style.css" rel="stylesheet">
+    <script src="scripts/app.js"></script>
+
+</head>
+<body>
+    <div id="main">
+        <h1> War Card Game </h1>
+        <div id="left">
+
+            <div id="pHand">
+                <!-- Replace the word 'Player' with the name of
+                the person playing the game-->
+                <div id="pHandParent">
+                </div>
+                <img id="pbike" src="./images/hit_small.jpg">
+            </div>
+            <div id="cHand">
+                <h2>Slick</h2>
+                <img id="cbike" src="./images/hit_small.jpg">
+            </div>
+            <div id="but">
+                <input type="button" value="Deal" onClick="shuffle()">
+                <button id="getcards">Play</button>
+                <input id="btnpName" type="button" value="Change Name" onClick="changename()">
+                <br><br>
+                <div id="result"></div>
+            </div>
+        </div>
+
+        <div id='right'>
+            <p>Card Count:</p>
+            <!-- Enter the number of remaining cards in the 'Players' hand
+            in the p tag below-->
+            <div id="cardCountparent">
+
+            </div>
+            <div id="pScoreparent">
+
+            </div>
+
+            <div id="cScoreparent">
+
+            </div>
+
+            <div id='right'>
+                <h2>Card Count:</h2>
+                <!-- Enter the number of remaining cards in the 'Players' hand
+        in the p tag below-->
+                <p id="cardCount"></p><br />
+                <!-- Replace the word 'Player' with the name of
+        the person playing the game-->
+                <h2 class="pName">Player:</h2>
+                <!-- Using jQuery nsert the current 'Player' score in the p tag
+        below -->
+                <p id="pScore"></p><br />
+                <h2 id="cName">Slick:</h2>
+                <!-- Using jQuery insert the current 'Slick' score in the p tag
+        below -->
+                <p id="cScore"></p>
+
+                <!-- add and style winning message in the
+        following div -->
+                <div id="win">  </div>
+
+
+            </div>
+
+        </div>
+
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+        <script type="text/javascript" src="scripts/jquery-3.1.1-min.js"></script>
+</body>
+</html>

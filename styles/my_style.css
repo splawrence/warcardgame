@@ -1,0 +1,327 @@
+h1 {
+    color: #0000ff;  /*blue*/
+    font-size: 44px;
+    }
+
+.container {
+    max-height: 520px; 
+	background-color: #808080; /*grey*/ 
+}
+
+#leftArrow, #rightArrow {
+    display: inline-block;
+    width: 38px;
+    height: 50px;
+}
+#leftArrow {
+    position: absolute;
+    /*top: 0;*/
+    top: 40%;
+    left: 0%;
+    width: 5%;
+    height: 50px;
+    background: url('../images/left_arrow.png') 0 0 no-repeat;
+    z-index: 10;
+}
+
+#rightArrow {
+    position: absolute;
+    /*top: 0;*/
+    top: 40%;
+    right: 0%;
+    width: 5%;
+    height: 50px;
+    background: url('../images/right_arrow.png') bottom right no-repeat;
+    z-index: 10;
+}
+
+#slider {
+    position: relative;
+    height: 520px;
+    max-width: 792px;
+    margin: 0 auto;
+    /*background: url("../images/Animate-Sprite_520a.png") -0 0 no-repeat;
+    background-image: url('../images/Animate-Sprite_520a.png');
+    background-repeat: no-repeat;*/
+    z-index: 0;
+    overflow: hidden;
+}
+
+#head {
+    height: 520px;
+    max-width: 792px;
+    margin: -3px;
+    /*background: url("../images/Animate-Sprite_520a.png") -0 0 no-repeat;*/
+    background-image: url('../images/Animate-Sprite_520a.png');
+    background-repeat: no-repeat;
+    z-index: 0;
+
+    padding: 0%,-200%,0%,0%;
+    position: relative;
+}
+
+#startApp {
+    width: 235px;
+    margin: 0 auto;
+}
+
+#startApp ul {
+    list-style-type:  none;
+}
+
+#startApp ul li a {
+    display: inline-block;
+    text-decoration: none;
+    width:  150px;
+    text-align: center;
+    background-color: steelblue;
+    border: 2px solid #808080;
+    color: white;
+    font-size: 32px;
+}
+
+#playercard,
+#computercard {
+
+    background-color: none;
+
+}
+
+
+#result {
+    background-color: none;
+}
+
+getcards {
+    background-color: gray;
+}
+
+body {
+    background-color: green;
+}
+
+#cardCount,
+#cardCountparent {
+    position: relative;
+    background-color: none;
+    top: -14%;
+    left: 65%;
+    font-size: small;
+    background-color: yellow;
+    max-height: 0px;
+}
+
+#pScoreparent {
+    font-size: small;
+    position: relative;
+    background-color: none;
+    top: -15%;
+    left: -175%;
+    max-height: 0px;
+}
+
+#cScoreparent {
+    font-size: small;
+    position: relative;
+    background-color: none;
+    top: -15%;
+    left: -46%;
+    max-height: 0px;
+}
+#pScore {
+    font-size: small;
+    position: absolute;
+    top: 20px;
+}
+
+#cScore {
+    font-size: small;
+    position: absolute;
+    top: 20px;
+}
+
+#main {
+    width: 850px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: coral;
+}
+
+#left {
+    float: left;
+    width: 600px;
+    height: 500px;
+}
+
+#pHand, #cHand {
+    width: 299px;
+    height: 500px;
+    color: coral;
+}
+
+#pbike {
+    background-color: none;
+    padding-top: 20%;
+    padding-left: 20%;
+}
+
+#cbike {
+    background-color: none;
+    padding-top: 20%;
+    padding-left: 20%;
+}
+
+#pHand #pName, #cHand h2, #pHandParent {
+    padding-left: 20px;
+}
+
+btnpName {
+    background-color: none;
+}
+#pHand {
+    float: left;
+    background-color: bisque;
+    border-right: 2px dashed black;
+}
+
+#cHand {
+    float: right;
+    background-color: bisque;
+}
+
+#right {
+    float: right;
+    width: 225px;
+    height: 555px;
+    background-color: green;
+}
+
+    #right h2, #right p {
+        display: inline-block;
+        color: coral;
+    }
+
+    #right p {
+        font-size: 25px;
+        padding-left: 5px;
+    }
+
+    #right.pName, #cName {
+    }
+
+#but {
+    clear: both;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: coral;
+}
+
+#game {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#deal {
+    width: 150px;
+    height: 70px;
+    font-size: 30px;
+}
+
+#dealer,
+#player {
+    height: 300px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#winner {
+    height: 100px;
+    font-size: 40px;
+}
+
+#warButtons {
+    display: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    /*-khtml-user-select: none;*/
+    -ms-user-select: none;
+}
+
+    #warButtons button {
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+.amount {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+    background-color: #CCC;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    /*-khtml-user-select: none;*/
+    -ms-user-select: none;
+}
+
+#betAmount {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    /*-khtml-user-select: none;*/
+    -ms-user-select: none;
+}
+
+.amount:hover {
+    background-color: #CCA;
+}
+
+.selected {
+    background-color: #CCA;
+}
+
+.winnerFound {
+    font-size: 80px !important;
+}
+
+#history {
+    width: 400px;
+    height: 200px;
+    overflow-y: scroll;
+    /*overflow-x: hide;*/
+    background-color: #CCC;
+    float: left;
+    margin: 0;
+    padding: 6px;
+}
+
+    #history hr {
+        border: 1px solid black;
+        margin: 20px 0px 20px 0px;
+    }
+
+#historyHeader {
+    height: 30px;
+    width: 400px;
+    background-color: darkgrey;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.historyGame:nth-child(2) {
+    margin-top: 10px;
+}
+
+.historyWinner {
+    color: lime !important;
+}
